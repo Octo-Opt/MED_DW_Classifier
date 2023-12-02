@@ -1,0 +1,7 @@
+dataset: ./dataset.csv
+
+model: 
+  max_seq_len: 75
+  n_label: 13
+  walk_len: 10
+  

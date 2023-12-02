@@ -1,0 +1,12 @@
+EDA
+    Distribution of Sentiment.
+    Distribution of word length:  truncation.
+
+Model
+    DeepWalk: word reprensentation.
+    Model: 
+        + Basic Machine learning. 
+        + Basic MLP.
+
+Evaluation
+    MSE
