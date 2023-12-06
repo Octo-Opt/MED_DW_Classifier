@@ -3,10 +3,27 @@ EDA
     Distribution of word length:  truncation.
 
 Model
-    DeepWalk: word reprensentation.
+    DeepWalk: word reprensentation. 
+        => Create of graph by constructing adjacency matrix: assuming  
     Model: 
         + Basic Machine learning. 
         + Basic MLP.
+        + Data Augmentation using DeepWalk 
 
 Evaluation
     MSE
+
+
+# ===== Step ===== 
+1. Run vanilla:
+    + Input Embedding with Word2Vec, implementing GNN. 
+    + Random Walk: 
+        + Naive. 
+        + Bias. 
+        
+2. Run improvement by augment data: 
+    + A word will be replaced a word with high similarity. 
+    + Pick random word in a sentence to audment. 
+    + Choosing from top_k, then: 
+        + Replace chosen word by picking randomly from tok_k. 
+        + Generate augmented samples. 

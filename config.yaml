@@ -4,4 +4,9 @@ model:
   max_seq_len: 75
   n_label: 13
   walk_len: 10
-  
+  sg: 1 # Skip-gram
+  vector_size: 10
+  min_count: 5
+  window: 2
+  workers: 2
+  seed: 0
